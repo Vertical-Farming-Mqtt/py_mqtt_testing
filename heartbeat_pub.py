@@ -4,11 +4,12 @@ import paho.mqtt.client as mqtt
 
 BROKER = "192.168.1.100"
 PORT = 1883
-REQUEST_TOPIC = "esp32/heartbeat/request"
-RESPONSE_TOPIC = "esp32/heartbeat/response"
+REQUEST_TOPIC = "ESP32_WLEVEL_1/distance/request"
+RESPONSE_TOPIC = "ESP32_WLEVEL_1/distance/response"
 
 # Global to hold reply
 reply_received = None
+
 
 def on_message(client, userdata, msg):
     global reply_received

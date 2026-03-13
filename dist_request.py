@@ -5,10 +5,10 @@ import paho.mqtt.client as mqtt
 from PIL import Image
 import struct
 
-BROKER = "192.168.1.100"
+BROKER = "192.168.1.163"
 PORT = 1883
-REQ_TOPIC = "esp32/ultrasonic/request"
-RESP_TOPIC = "esp32/ultrasonic/response"
+REQ_TOPIC = "ESP32_WLEVEL_1/distance/request"
+RESP_TOPIC = "ESP32_WLEVEL_1/distance/response"
 
 
 
