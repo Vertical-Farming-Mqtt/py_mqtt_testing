@@ -3,10 +3,10 @@ import numpy as np
 import paho.mqtt.client as mqtt
 import time
 
-BROKER = "192.168.1.100"
+BROKER = "192.168.1.163"
 PORT = 1883
-REQ_TOPIC = "esp32/picture/request"
-RESP_TOPIC = "esp32/picture/response"
+REQ_TOPIC = "ESP32_CAM_1/picture/request"
+RESP_TOPIC = "ESP32_CAM_1/picture/response"
 
 exit_flag = 0
 request_time = None
